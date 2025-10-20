@@ -1,0 +1,22 @@
+{
+    "approvalStatus": "1",
+    "memo": "ContractTitle-Debug1986 dummy desc",
+    "lineItems": [
+        {
+            "itemId": "37",
+            "amount": "100.0",
+            "item": "Printing",
+            "catalogNumber": "null",
+            "quantity": "100.00",
+            "rate": "1",
+            "description": "ContractTitle-Debug1986-PO Line-Item Printing-Change Order",
+            "location": "1",
+            "program": "2",
+            "department": "2"
+        }
+    ],
+    "agiloftName": "ContractTitle-Debug1986",
+    "netSuiteId": "235663",
+    "agiloftContractId": "1986",
+    "status": "1"
+}

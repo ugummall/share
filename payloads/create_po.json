@@ -1,0 +1,31 @@
+{
+    "date": "10/10/2025",
+    "approvalStatus": "1",
+    "agiloftId": "",
+    "parentAgiloftId": "",
+    "vendorId": "7841",
+    "memo": "ContractTitle-1979",
+    "decRequired": "1",
+    "lineItems": [
+        {
+            "itemId": "107",
+            "amount": "1000.0",
+            "item": "Facilities: Other",
+            "catalogNumber": "null",
+            "quantity": "1000.00",
+            "rate": "1",
+            "description": "ContractTitle-1979-PO Line-Facilities Other",
+            "location": "1",
+            "program": "2",
+            "department": "2"
+        }
+    ],
+    "agiloftName": "ContractTitle-1979",
+    "internalLegalEntity": "Apogee Therapeutics, INC.",
+    "requesterName": "Uday Kiran Gummalla",
+    "currency": "US Dollar",
+    "location": "1",
+    "requestedOnBehalfOf": "5403",
+    "agiloftContractId": "1979",
+    "status": "1"
+}

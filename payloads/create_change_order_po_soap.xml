@@ -1,0 +1,39 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Header><preferences xmlns="urn:messages_2020_2.platform.webservices.netsuite.com"><warningAsError>false</warningAsError><disableMandatoryCustomFieldValidation>true</disableMandatoryCustomFieldValidation><disableSystemNotesForCustomFields>false</disableSystemNotesForCustomFields><ignoreReadOnlyFields>false</ignoreReadOnlyFields><runServerSuiteScriptAndTriggerWorkflows>true</runServerSuiteScriptAndTriggerWorkflows><sendRunServerSuiteScript>true</sendRunServerSuiteScript></preferences><tokenPassport xmlns="urn:messages_2020_2.platform.webservices.netsuite.com"><account xmlns="urn:core_2020_2.platform.webservices.netsuite.com">8272504_SB1</account><consumerKey xmlns="urn:core_2020_2.platform.webservices.netsuite.com">bcb65e1df42ba9c944f395877a9023a3ac7439c273f64826d86346ddbb747437</consumerKey><token xmlns="urn:core_2020_2.platform.webservices.netsuite.com">a7b34865da04d25933700f660e5ee31b2663e6b87863983c41e81c0fe1dd7ec6</token><nonce xmlns="urn:core_2020_2.platform.webservices.netsuite.com">65768d30a2f911f0a4f6d6bc56ff80dd-39899</nonce><timestamp xmlns="urn:core_2020_2.platform.webservices.netsuite.com">1760105259</timestamp><signature xmlns="urn:core_2020_2.platform.webservices.netsuite.com" algorithm="HMAC_SHA256">QNn2SR7NUiliwc32f2BzIFb/qF+IuFHPPd/clQQ8omE=</signature></tokenPassport></soap:Header><soap:Body><ns0:update xmlns:ns0="urn:messages_2020_2.platform.webservices.netsuite.com">
+  <ns0:record xmlns:ns01="urn:purchases_2020_2.transactions.webservices.netsuite.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" internalId="235663" xsi:type="ns01:PurchaseOrder">
+    <ns01:approvalStatus internalId="1"/>
+    <ns01:memo>ContractTitle-Debug1986 dummy desc</ns01:memo>
+    <ns01:externalId>1986</ns01:externalId>
+    <ns01:tranDate>2025-10-10T14:07:39.532Z</ns01:tranDate>
+    <ns01:customFieldList>
+      <customField xmlns:platformCore="urn:core_2020_2.platform.webservices.netsuite.com" scriptId="custbody_ai_agiloft_name" xsi:type="platformCore:StringCustomFieldRef">
+        <ns03:value xmlns:ns03="urn:core_2020_2.platform.webservices.netsuite.com">ContractTitle-Debug1986</ns03:value>
+      </customField>
+      <customField xmlns:platformCore="urn:core_2020_2.platform.webservices.netsuite.com" scriptId="custbody_ai_agiloft_contract_status" xsi:type="platformCore:SelectCustomFieldRef">
+        <ns03:value xmlns:ns03="urn:core_2020_2.platform.webservices.netsuite.com" internalId="1"/>
+      </customField>
+      <customField xmlns:platformCore="urn:core_2020_2.platform.webservices.netsuite.com" scriptId="custbody_ai_agiloft_id" xsi:type="platformCore:StringCustomFieldRef">
+        <ns03:value xmlns:ns03="urn:core_2020_2.platform.webservices.netsuite.com">1986</ns03:value>
+      </customField>
+    </ns01:customFieldList>
+    <ns01:itemList replaceAll="false">
+      <ns01:item>
+        <ns01:location internalId="1"/>
+        <ns01:department internalId="2"/>
+        <ns01:class internalId="2"/>
+        <ns01:amount>100.0</ns01:amount>
+        <ns01:rate>1</ns01:rate>
+        <ns01:quantity>100.00</ns01:quantity>
+        <ns01:description>ContractTitle-Debug1986-PO Line-Item Printing-Change Order</ns01:description>
+        <ns01:item internalId="37"/>
+        <ns01:customFieldList>
+          <customField xmlns:platformCore="urn:core_2020_2.platform.webservices.netsuite.com" scriptId="custcol_ai_catalog_num" xsi:type="platformCore:StringCustomFieldRef">
+            <ns03:value xmlns:ns03="urn:core_2020_2.platform.webservices.netsuite.com">null</ns03:value>
+          </customField>
+          <customField xmlns:platformCore="urn:core_2020_2.platform.webservices.netsuite.com" scriptId="custitem_agiloft_item_id" xsi:type="platformCore:StringCustomFieldRef">
+            <ns03:value xmlns:ns03="urn:core_2020_2.platform.webservices.netsuite.com">37</ns03:value>
+          </customField>
+        </ns01:customFieldList>
+      </ns01:item>
+    </ns01:itemList>
+  </ns0:record>
+</ns0:update></soap:Body></soap:Envelope>

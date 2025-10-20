@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:add xmlns:ns0="urn:messages_2020_2.platform.webservices.netsuite.com">
+  <ns0:record xmlns:ns01="urn:purchases_2020_2.transactions.webservices.netsuite.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns01:PurchaseOrder">
+    <ns01:approvalStatus xmlns:ns01="urn:purchases_2020_2.transactions.webservices.netsuite.com" internalId="1"/>
+    <ns01:employee xmlns:ns01="urn:purchases_2020_2.transactions.webservices.netsuite.com" internalId="5403"/>
+    <ns01:memo xmlns:ns01="urn:purchases_2020_2.transactions.webservices.netsuite.com">ContractTitle-1979</ns01:memo>
+    <ns01:location xmlns:ns01="urn:purchases_2020_2.transactions.webservices.netsuite.com" internalId="1"/>
+    <ns01:subsidiary xmlns:ns01="urn:purchases_2020_2.transactions.webservices.netsuite.com">Apogee Therapeutics, INC.</ns01:subsidiary>
+    <ns01:externalId xmlns:ns01="urn:purchases_2020_2.transactions.webservices.netsuite.com">1979</ns01:externalId>
+    <ns01:currency xmlns:ns01="urn:purchases_2020_2.transactions.webservices.netsuite.com">US Dollar</ns01:currency>
+    <ns01:entity xmlns:ns01="urn:purchases_2020_2.transactions.webservices.netsuite.com" internalId="7841"/>
+    <ns01:tranDate xmlns:ns01="urn:purchases_2020_2.transactions.webservices.netsuite.com">2025-10-10T18:52:38.290981+05:30</ns01:tranDate>
+    <ns01:customFieldList xmlns:ns01="urn:purchases_2020_2.transactions.webservices.netsuite.com">
+      <SelectCustomFieldRef__custbody_ai_doc_required>
+        <ns03:value xmlns:ns03="urn:core_2020_2.platform.webservices.netsuite.com" internalId="1"/>
+      </SelectCustomFieldRef__custbody_ai_doc_required>
+      <StringCustomFieldRef__custbody_ai_agiloft_name>
+        <ns03:value xmlns:ns03="urn:core_2020_2.platform.webservices.netsuite.com">ContractTitle-1979</ns03:value>
+      </StringCustomFieldRef__custbody_ai_agiloft_name>
+      <SelectCustomFieldRef__custbody_ai_agiloft_contract_status>
+        <ns03:value xmlns:ns03="urn:core_2020_2.platform.webservices.netsuite.com" internalId="1"/>
+      </SelectCustomFieldRef__custbody_ai_agiloft_contract_status>
+      <StringCustomFieldRef__custbody_ai_agiloft_id>
+        <ns03:value xmlns:ns03="urn:core_2020_2.platform.webservices.netsuite.com">1979</ns03:value>
+      </StringCustomFieldRef__custbody_ai_agiloft_id>
+      <SelectCustomFieldRef__custbody_ai_requestor>
+        <ns03:value xmlns:ns03="urn:core_2020_2.platform.webservices.netsuite.com" internalId="5403"/>
+      </SelectCustomFieldRef__custbody_ai_requestor>
+    </ns01:customFieldList>
+    <ns01:itemList xmlns:ns01="urn:purchases_2020_2.transactions.webservices.netsuite.com">
+      <ns01:item>
+        <ns01:location internalId="1"/>
+        <ns01:department internalId="2"/>
+        <ns01:class internalId="2"/>
+        <ns01:amount>1000.0</ns01:amount>
+        <ns01:rate>1</ns01:rate>
+        <ns01:quantity>1000.00</ns01:quantity>
+        <ns01:description>ContractTitle-1979-PO Line-Facilities Other</ns01:description>
+        <ns01:item internalId="107"/>
+        <ns01:customFieldList>
+          <StringCustomFieldRef__custcol_ai_catalog_num>
+            <ns03:value xmlns:ns03="urn:core_2020_2.platform.webservices.netsuite.com">null</ns03:value>
+          </StringCustomFieldRef__custcol_ai_catalog_num>
+          <StringCustomFieldRef__custitem_agiloft_item_id>
+            <ns03:value xmlns:ns03="urn:core_2020_2.platform.webservices.netsuite.com">107</ns03:value>
+          </StringCustomFieldRef__custitem_agiloft_item_id>
+        </ns01:customFieldList>
+      </ns01:item>
+    </ns01:itemList>
+  </ns0:record>
+</ns0:add>
